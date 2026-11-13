@@ -1,0 +1,24 @@
+# Environment & Secrets
+.env
+*.env
+config.json
+
+# Runtime Data & IPC Bridge Files
+guide_data.json
+player_stats.json
+update_request.txt
+alerts.txt
+
+# Python Cache & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
