@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "money-guide",
+	"version": "${version}",
+	"name": "Money Guide",
+	"description": "Hypixel SkyBlock Money-Making Guide, Craft-Flip Scanner, and Lowballing Calculator.",
+	"authors": [
+		"Neo-Noir"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/money-guide/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.neonoir.moneyguide.MoneyGuideClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
